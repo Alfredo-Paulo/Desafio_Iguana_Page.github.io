@@ -1,0 +1,156 @@
+body {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    background-color: #000000;
+    font-family: 'Raleway', sans-serif;
+}
+
+header {
+    background: #000000;
+    opacity: 1;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 0;
+}
+
+footer{
+    background-color: #1e1a13;
+    margin: 0;
+}
+
+footer p{
+    color: #FFFFFF;
+    margin: 0;
+    text-align: center;
+    padding-top: 39px;
+    padding-bottom: 39px;
+    font-weight: 20px;
+    font-size: 24px;
+}
+
+h1{
+    margin:7px;
+    color: #FFFFFF;
+}
+
+h2{
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 75px;
+}
+
+.full-width-img {
+    width: 100%;
+    height: auto;
+}
+
+.light {
+    font-weight: 300;
+    color: #FFFFFF;
+}
+
+.medium {
+    font-weight: 500;
+    font-size: 50px;
+}
+
+.white-icon{
+    color:#FFFFFF;
+}
+
+.desc-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000;
+    font: weight 500px;
+}
+
+.caract-section {
+    text-align: center;
+    background-color: #1e1a13;
+}
+
+.icon-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.left-icon-content, .center-icon-content, .right-icon-content {
+    width: calc(33.33% - 20px);
+    margin-bottom: 74px;
+    text-align: center;
+}
+
+.left-icon-content p, .center-icon-content p, .right-icon-content p {
+    margin-top: 1.5rem;
+    margin-bottom: 0;
+    font-size: 1.5rem;
+}
+
+.left-icon-content i,
+.center-icon-content i,
+.right-icon-content i {
+    font-size: 3rem;
+}
+
+.left-content p{
+    
+    font-size: 16px;
+    padding-left: 150px;
+    padding-top: 76px;
+    padding-bottom: 75px;
+    padding-right: 53px;
+    font: normal normal 300 16px/19px Raleway;
+    letter-spacing: 0px;
+    opacity:0.75;
+    
+}
+
+.right-content img {
+    top: 845px;
+    left: 731px;
+    width: 399px;
+    height: 237px;
+    
+    background: transparent url('img/photo-1492963892107-740cd39d9ff3.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    padding-top: 45px;
+    padding-right: 150px;
+    padding-bottom: 66px;
+    padding-left: 53px;
+}
+
+.horizontal-images {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 73px;
+    padding-bottom: 73px;
+}
+
+.horizontal-images img{
+    width: 25%;
+}
+
+.first-image {
+    padding-left: 150px;
+}
+
+.second-image {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.third-image {
+    padding-right: 150px;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
